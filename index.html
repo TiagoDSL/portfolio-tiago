@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Leite | Cientista de Dados</title>
+    <meta name="description" content="Portfólio de Tiago Leite - Cientista de Dados com projetos em Python, Machine Learning e Análise de Dados">
+    <meta name="keywords" content="Ciência de Dados, Python, Machine Learning, SQL, Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
+</head>
+<body>
+    <!-- Cabeçalho Fixo -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                  <i class="fas fa-chart-line"></i>
+
+                    <h1>Tiago Leite</h1>
+
+                </div>
+
+                <nav class="nav">
+                  <ul>
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#experience" class="nav-link">Experiência</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                  </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="cta-small">Contatos</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home" class="mobile-nav-link">Início</a></li>
+                <li><a href="#about" class="mobile-nav-link">Sobre</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projetos</a></li>
+                <li><a href="#experience" class="mobile-nav-link">Experiência</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">Bem Vindo ao meu portfólio!</span>
+                    <h2 class="hero-title">Tiago Leite</h2>
+                    <h1 class="hero-subtitle">Cientista de Dados</h1>
+                    <p class="hero-description">
+                        Profissional comprometido em transformar dados em ações estratégicas. Aprendizado
+                        contínuo e aprimoramento são minha base para entregrar resultados cada vez mais impactantes.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-chart-line"></i> Ver Projetos
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Entrar em Contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="profile-container">
+                          <div class="profile-image">
+                            <!-- Substituir pela sua foto -->
+                            <div class="placeholder-profile">
+                              <img src="perfil_foto.jpg" alt="Foto de perfil" class="profile-photo">
+                            </div>
+
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Conheça mais</span>
+                <h2 class="section-title">Sobre Mim</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Formação</h3>
+                    <p>Administração<br>Pós-graduação em Data Science e IA</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Objetivo</h3>
+                    <p>Posição em Ciência de Dados Júnior</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Transição</h3>
+                    <p>Profissional migrando para Ciência de Dados, com experiência em projetos de machine learning,
+                      análise preditiva e visualização, além de participação ativa em hackathons.</p>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Sou um profissional formado em Administração,
+                    especializando em Data Science e IA. Tenho uma abordagem que une uma visão estratégica de gestão com desenvolvimento técnico em modelagem preditiva,
+                    machine learning, SQL e visualização.
+                    Experiência prática através de hackathons e projetos pessoais que visam simular problemas de negócios reais.
+                </p>
+                <div class="about-actions">
+                    <a href="https://github.com/TiagoDSL" class="btn btn-outline" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <!-- Botão para baixar currículo -->
+                    <a href="curriculo.pdf"
+                    download="Cientista_de_Dados_TIAGO_LEITE.pdf"
+                    class="btn btn-outline">
+                    <i class="fas fa-file-download"></i> Baixar CV
+                  </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Tecnologias</span>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+            </div>
+
+
+
+            <div class="skills-grid">
+                <!-- Linguagens de Programação -->
+                <div class="skill-category" data-category="programming">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i> Linguagens & Bancos de Dados
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Neo4j</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Numpy</span>
+                        <span class="skill-tag">ETL</span>
+                    </div>
+                </div>
+
+                <!-- Estatística -->
+                <div class="skill-category" data-category="ml">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-chart-area"></i> Estatística
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Medidas de Tendência Central</span>
+                        <span class="skill-tag">Medidas de Dispersão</span>
+                        <span class="skill-tag">Correlação</span>
+                        <span class="skill-tag">Amostragem</span>
+                        <span class="skill-tag">Probabilidade</span>
+
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-category" data-category="ml">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-brain"></i> Machine Learning
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">XGBoost</span>
+                        <span class="skill-tag">LightGBM</span>
+                        <span class="skill-tag">Regressão Linear</span>
+                        <span class="skill-tag">Classificação</span>
+
+                    </div>
+                </div>
+
+                <!-- Visualização -->
+                <div class="skill-category" data-category="viz">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-chart-line"></i> Visualização de Dados
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Plotly</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Looker Studio</span>
+                        <span class="skill-tag">Power BI</span>
+
+                    </div>
+                </div>
+
+                <!-- Ferramentas -->
+                <div class="skill-category" data-category="tools">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-tools"></i> Ferramentas
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">Streamlit Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Trabalho recente</span>
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <p class="section-description">
+                    Projetos práticos aplicando ciência de dados a problemas reais de negócio
+                </p>
+            </div>
+
+
+
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <article class="project-card" data-category="python">
+                    <div class="project-badges">
+                        <span class="project-badge">Python</span>
+
+
+                    </div>
+
+                    <div class="project-image">
+                        <img src="analisecurry.jpg" alt="Dashboard Curry Company" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Análise de Delivery - Curry Company</h3>
+                        <p class="project-description">
+                            Dashboard interativo para análise de métricas de uma empresa de delivery,
+                            com visualização geográfica e KPIs em tempo real.
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-chart-line"></i>
+                                <span>15+ métricas</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-map"></i>
+                                <span>Visualização geográfica</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-bolt"></i>
+                                <span>Tempo real</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>Pandas</span>
+                            <span>Plotly</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/curry_company_project" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 2 -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-badges">
+                        <span class="project-badge">Python</span>
+                        <span class="project-badge">Machine Learning</span>
+
+                    </div>
+
+                    <div class="project-image">
+                        <img src="rossmann.jpeg" alt="Previsão de Vendas Rossmann" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Previsão de Vendas - Farmácias Rossmann</h3>
+                        <p class="project-description">
+                            Modelo de machine learning para prever vendas diárias nas próximas 6 semanas,
+                            auxiliando decisões de reforma das lojas.
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-percentage"></i>
+                                <span>92% acurácia</span>
+                            </div>
+
+                            <div class="metric">
+                                <i class="fas fa-store"></i>
+                                <span>1115 lojas</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>XGBoost</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/previsao_vendas_rossmann" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 3 -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-badges">
+                        <span class="project-badge">Python</span>
+                        <span class="project-badge">Machine Learning</span>
+
+                    </div>
+
+                    <div class="project-image">
+                        <img src="previsao.jpeg" alt="Competição HackDay" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Previsão de Vendas - Competição Hackthon</h3>
+                        <p class="project-description">
+                            Modelo desenvolvido em competição para prever vendas semanais em diferentes setores
+                            de uma rede de lojas.
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-trophy"></i>
+                                <span>Competição</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Previsão semanal</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>XGBoost</span>
+                            <span>Scikit-learn</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/hackday_7th_edition_comunidade_ds" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 4 -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-badges">
+
+                        <span class="project-badge">Excel</span>
+                    </div>
+
+                    <div class="project-image">
+                        <img src="analiseifood2.webp" alt="Análise de Dados" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Análise Logístico de Entregas do iFood</h3>
+                        <p class="project-description">
+                            Este projeto teve como foco diagnosticar os principais gargalos
+                            operacionais da logística de entregas no iFood
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Entregas</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Perfomance</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-pie"></i>
+                                <span>Análise Descritiva</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Excel</span>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/projeto_analise_dados_ifood_hackday" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Projeto 5 -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-badges">
+
+                        <span class="project-badge">Python</span>
+                    </div>
+
+                    <div class="project-image">
+                        <img src="analiseolist.png" alt="Análise de Dados" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Análise de Dados - Brazilian E-Commerce</h3>
+                        <p class="project-description">
+                            Este projeto teve como foco analisar os atrasos de entregas para entender
+                            os motivos e gerar insights que ajudem a agir de forma preventiva.
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Entregas</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Perfomance</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-chart-pie"></i>
+                                <span>Análise Descritiva</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Numpy</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                            <span>Scikit-Le</span>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/olist_analise_dados" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 6 -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-badges">
+
+                        <span class="project-badge">Python</span>
+                    </div>
+
+                    <div class="project-image">
+                        <img src="etl.png" alt="Automaçãop ETL" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title">Automação de ETL com Python</h3>
+                        <p class="project-description">
+                            Projeto que teve como objetivo automatizar a extração, carga e carregaemnto de dados
+                            atualizados da base de dados do IMDb para um Banco de Dados.
+                        </p>
+
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <i class="fas fa-download"></i>
+                                <span>Extração</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-cogs"></i>
+                                <span>Transformação</span>
+                            </div>
+                            <div class="metric">
+                                <i class="fas fa-database"></i>
+                                <span>Carregamento</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>SQLite</span>
+                            <span>Rundeck</span>
+                            <span>Shell Scripting (Bash)</span>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TiagoDSL/automacao_etl" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Projeto Completo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="projects-cta">
+                <p>Veja todos os projetos no meu GitHub</p>
+                <a href="https://github.com/TiagoDSL" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> Todos os Projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Jornada profissional</span>
+                <h2 class="section-title">Experiências</h2>
+            </div>
+
+            <div class="timeline">
+                <!-- Experiência 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Atualmente</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Cientista de Dados Júnior (Voluntário)</h3>
+                            <span class="timeline-company">ComunidadeDS</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Análise exploratória de dados usando Google Sheets</li>
+                            <li>Desenvolvimento de dashboards com Looker Studio</li>
+                            <li>Participação em projetos usando metodologia SCRUM</li>
+
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Google Sheets</span>
+                            <span>Looker Studio</span>
+                            <span>SCRUM</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experiência 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Atualmente</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Motorista</h3>
+                            <span class="timeline-company">Coorpetran</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Prestação de serviço de transporte de passageiros para Novacap</li>
+                            <li>Trasnporte diário de funcionários</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Transporte</span>
+                            <span>Logística</span>
+                            <span>Direção Defensiva</span>
+                            <span>Comunicação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiência 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Motorista</h3>
+                            <span class="timeline-company">Perboni</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Montagem de paletes de mercadoria conforme pedidos</li>
+                            <li>Garantir o carregamento do caminhão com segurança</li>
+                            <li>Realização de entregas das mercadorias nas rotas previstas</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Transporte</span>
+                            <span>Logística</span>
+                            <span>Atendimento ao Cliente</span>
+                            <span>Comunicação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiência 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2022</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Agente de Segurança</h3>
+                            <span class="timeline-company">GSI/Presidência da República</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Controle de acesso ao público em palácios presidenciais</li>
+                            <li>Controle de segurança em eventos</li>
+                            <li>Transporte de autoridades e materiais bélicos</li>
+                            <li>Trabalho sob pressão e tomada de decisão rápida</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Segurança</span>
+                            <span>Direção Defensiva/Ofensiva</span>
+                            <span>Gestão de crise</span>
+                            <span>Trabalho Sob Pressão</span>
+                            <span>Atendimento ao Público</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiência 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Soldado do Exército</h3>
+                            <span class="timeline-company">Batalhão de Polícia do Exército</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Capacitação e instrução de novos soldados</li>
+                            <li>Assistente administrativo</li>
+                            <li>Gestão de equipes e recursos</li>
+                            <li>Planejamento e execução de operações</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Liderança</span>
+                            <span>Administração</span>
+                            <span>Treinamento</span>
+                            <span>Organização</span>
+                            <span>Pontualidade</span>
+                            <span>Disciplina</span>
+                            <span>Trabalho Sob Pressão</span>
+                            <span>Gestão de Crise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="section-header">
+                    <span class="section-subtitle">Vamos conversar</span>
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="section-description">
+                        Estou disponível para oportunidades como Cientista de Dados Júnior.
+                    </p>
+                </div>
+
+                <div class="contact-methods">
+                    <a href="mailto:tiago9243@hotmail.com" class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>tiago9243@hotmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/tiago-santos-leite" class="contact-method" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>Tiago Leite</p>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/TiagoDSL" class="contact-method" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>TiagoDSL</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contact-cta">
+                    <p class="cta-text">Pronto para contribuir com sua equipe!</p>
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        <span>Disponível para entrevistas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                  <div class="footer-skills">
+              <div class="skills-icons" style="
+                  display: flex;
+                  justify-content: center;
+                  gap: 30px;
+                  margin: 20px 0;
+                  flex-wrap: wrap;">
+
+                  <!-- Python + Database -->
+                  <div class="skill-pair" style="text-align: center;">
+                      <div style="font-size: 24px; margin-bottom: 5px;">
+                          <i class="fab fa-python" style="color: #3776AB; margin-right: 8px;"></i>
+                          <i class="fas fa-database" style="color: #00758F;"></i>
+                      </div>
+
+                  </div>
+
+                  <!-- Brain + Chart -->
+                  <div class="skill-pair" style="text-align: center;">
+                      <div style="font-size: 24px; margin-bottom: 5px;">
+                          <i class="fas fa-brain" style="color: #FF6B6B; margin-right: 8px;"></i>
+                          <i class="fas fa-chart-line" style="color: #4ECDC4;"></i>
+                      </div>
+
+                  </div>
+
+                  <!-- Chart + Code -->
+                  <div class="skill-pair" style="text-align: center;">
+                      <div style="font-size: 24px; margin-bottom: 5px;">
+                          <i class="fas fa-chart-bar" style="color: #FFD166; margin-right: 8px;"></i>
+                          <i class="fas fa-code" style="color: #06D6A0;"></i>
+                      </div>
+
+
+              </div>
+          </div>
+
+                    <h3>Tiago Leite</h3>
+                    <p>Cientista de Dados</p>
+                </div>
+
+</html>
