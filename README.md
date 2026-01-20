@@ -6,7 +6,7 @@ preditiva e visualização de dados.
 
 ## Sobre Mim
 Sou formado em Administração e estou em transição de carreira para Ciência de Dados,
-com experiência prática em projetos usando Python e Machine Learning.
+com experiência prática em projetos usando Python e Machine Learning. Atualmente também estou cursando uma Especialização Lato-sensu em Ciência de Dados e IA.
 
 ## Projetos
 - 📊 Análise de Dados – Marketplace de Delivery
@@ -22,6 +22,7 @@ Python | Pandas | NumPy | SQLite | Scikit-learn | XGBoost | Streamlit | Git | Ru
 
 ## Contato
 LinkedIn: https://www.linkedin.com/in/tiago-santos-leite/
+
 
 
 
