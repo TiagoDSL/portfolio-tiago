@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.documentElement.setAttribute('data-theme', savedTheme);
 
     initNavigation();
-    initThemeToggle();
     initFilters();
     initMobileMenu();
     initContactForm();
@@ -41,21 +40,6 @@ function initNavigation() {
     sections.forEach(section => observer.observe(section));
 }
 
-
-// Tema claro/escuro
-function initThemeToggle() {
-    const toggle = document.getElementById('theme-toggle');
-    if (!toggle) return;
-
-    toggle.addEventListener('click', () => {
-        const html = document.documentElement;
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-        html.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-}
 
 // Filtros
 function initFilters() {
