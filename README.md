@@ -54,6 +54,10 @@ Sou formado em Administração e pós-graduado em Ciência de Dados e IA (Lato S
 **Automação**
 - Rundeck
 
+## 📚 Metodologias
+
+CRISP-DM | EDA | Feature Engineering | Feature Selection | Machine Learning | Aprendizado Não Supervisionado | Visão Computacional | NLP | Mineração de Textos
+
 ## Contato
 LinkedIn: https://www.linkedin.com/in/tiago-santos-leite/
 
